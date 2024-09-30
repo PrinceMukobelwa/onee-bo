@@ -1,0 +1,244 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    background-image: url('image/background.jpg.0.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5a9fc7;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+}
+.logo-image {
+    max-height: 120px;
+    margin-right: 40px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.links li a:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.logo {
+    color: white;
+}
+
+main {
+    flex: 1; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+h1, h2 {
+    color: #0f3c5ac7;
+}
+
+form {
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #5a5a5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a9fc7;
+}
+
+.tab{
+    overflow-x: auto; white-space: nowrap;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: visible;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #5a9fc7;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    flex-shrink: 0; 
+}
+
+#network-backup-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#network-backup-section fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#network-backup-section legend {
+    font-weight: bold;
+}
+
+#network-backup-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#network-backup-section input[type="text"],
+#network-backup-section input[type="number"],
+#network-backup-section input[type="date"],
+#network-backup-section select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#network-backup-section button {
+    background-color: #5a5a5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#network-backup-section button:hover {
+    background-color: #5a9fc7;
+}
+
+#network-backup-section .sub-section {
+    margin-bottom: 20px;
+}
+
+#network-backup-section .sub-section legend {
+    font-size: 1.2em;
+}
+
+#network-backup-section h3 {
+    margin-top: 0;
+    color: #0f3c5ac7;
+}
+
+#licenses-section {
+    margin-bottom: 20px;
+}
+
+#licensesForm {
+    max-width: 600px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#licensesForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#licensesForm input[type="text"],
+#licensesForm input[type="number"],
+#licensesForm input[type="date"],
+#licensesForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#licensesForm button {
+    background-color: #5a5a5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#licensesForm button:hover {
+    background-color: #5a9fc7;
+}
